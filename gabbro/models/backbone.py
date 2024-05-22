@@ -16,7 +16,7 @@ from tqdm import tqdm
 
 from gabbro.metrics.utils import calc_accuracy
 from gabbro.models.gpt_model import BackboneModel
-from gabbro.models.gpt_model_sequential import FullModel  # noqa: E402
+# from gabbro.models.gpt_model_sequential import FullModel  # noqa: E402
 
 vector.register_awkward()
 
